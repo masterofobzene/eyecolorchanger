@@ -24,5 +24,8 @@ You can use other colors:
 - gray
 - purple
 
-The script will excecute and put the new recolored versions of the images in the root where the originals where, and the originals will be put into a `ORIGINAL_EYES` folder. NOTE: if the script cannot detect the eyes on your pic (this can happen if the image is too small or the eyes are not very clear) the script will NOT move that file to the originals folder.
+The script will excecute and put the new recolored versions of the images in the root where the originals where, and the originals will be put into a `ORIGINAL_EYES` folder. 
+
+> [!TIP]
+NOTE: if the script cannot detect the eyes on your pic (this can happen if the image is too small or the eyes are not very clear) the script will NOT move that file to the originals folder.
 
