@@ -7,7 +7,7 @@ Features:
 - Multi-image support
 - Windows shell extension compatible
 - Moves successfully processed originals into:
-    OJOS_ORIGINALES
+    ORIGINAL_EYES
 
 Requirements:
     pip install mediapipe==0.10.14
@@ -322,7 +322,7 @@ def change_eye_color(image_path, color_name):
 
         ojos_dir = os.path.join(
             original_dir,
-            "OJOS_ORIGINALES"
+            "ORIGINAL_EYES"
         )
 
         os.makedirs(
