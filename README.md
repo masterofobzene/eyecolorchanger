@@ -10,6 +10,14 @@ It is not perfect but it is easier and faster than photoshoping it.
 
 2- Install python requirements. Open CMD and type: `pip install mediapipe==0.10.14` then `pip install opencv-python==4.10.0.84` and finally `pip install numpy`
 
+3- Download [deploy.prototxt](https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector/deploy.prototxt) and [res10_300x300_ssd_iter_140000.caffemodel](https://github.com/gopinath-balu/computer_vision/blob/master/CAFFE_DNN/res10_300x300_ssd_iter_140000.caffemodel). Put them in a final folder, then map them inside your script (step 4)
+
+4- Change these lines with the correct path to your downloaded files in step 3:
+````python
+PROTO_TXT = os.path.join(SCRIPT_DIR, r"C:\YOUR_PATH_TO\deploy.prototxt")
+CAFFE_MODEL = os.path.join(SCRIPT_DIR, r"C:\YOUR_PATH_TO\res10_300x300_ssd_iter_140000.caffemodel")
+````
+
 
 # USE:
 `python "C:\whatever\Color Changer.py" img1.jpg img2.png img3.jpeg teal`
